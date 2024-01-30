@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:test_run_app/k_bank/provider/provider_bank.dart';
 import 'package:test_run_app/k_bank/screen/slip_page.dart';
-import 'package:test_run_app/k_bank/num_pad_code/Numpad.dart';
+import 'package:test_run_app/k_bank/num_pad_code/num_pad.dart';
 
 class ConfirmTransferPage extends StatefulWidget {
   final String accountName;

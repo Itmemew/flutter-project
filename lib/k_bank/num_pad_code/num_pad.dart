@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:test_run_app/k_bank/num_pad_code/CodeUnlock%20.dart';
+import 'package:test_run_app/k_bank/num_pad_code/code_unlock%20.dart';
 
 class NumPad extends StatefulWidget {
   final int length;

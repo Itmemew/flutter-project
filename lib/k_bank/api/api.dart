@@ -6,7 +6,6 @@ class DataApi {
 
   Future<ModelApi?> getDataApi(
       {required String account, required String money}) async {
-    print(">>>>>>");
     try {
       final response = await dio.post(
         'http://192.168.1.104:8080/api/transferMoney',
@@ -15,7 +14,6 @@ class DataApi {
           'amount': money,
         },
       );
-      print('*****${response.data}');
       return ModelApi.fromJson(response.data);
     } on DioException catch (e) {
       return null;
